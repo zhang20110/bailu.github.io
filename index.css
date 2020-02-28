@@ -1,0 +1,117 @@
+/* 让图片以固定宽高比显示 */
+.ratioC {
+    width: 100%;
+}
+/* 让图片以固定宽高比显示 */
+
+/* 背景切换 */
+.main {
+	width: 100%;
+}
+div[class^="box"] {
+	width: 100%;
+	height: 1000px;
+	overflow: hidden;
+}
+.box-active {
+	height: 1500px!important;
+}
+div[class^="box1"] {
+	border: 1px solid transparent;
+    background: url(img/background1.jpg) 0 0/50% 772px no-repeat fixed, 
+    url(img/background2.jpg) 100% 0/50% 772px no-repeat fixed;
+}
+div[class^="box2"] {
+    background: url(img/background3.jpg) 0 0/50% 772px no-repeat fixed, 
+    url(img/background4.jpg) 100% 0/50% 772px no-repeat fixed;
+}
+div[class^="box3"] {
+    background: url(img/background5.jpg) 0 0/50% 772px no-repeat fixed, 
+    url(img/background6.jpg) 100% 0/50% 772px no-repeat fixed;
+}
+div[class^="box4"] {
+    background: url(img/background7.jpg) 0 0/50% 772px no-repeat fixed, 
+    url(img/background8.jpg) 100% 0/50% 772px no-repeat fixed;
+}
+/* 背景切换 */
+
+/* *****************header的css**************** */
+#bl_header>div {
+    position: relative;
+}
+#bl_header .word {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 35px;
+    height: 75px;
+}
+#bl_header span {
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    color: rgb(14, 211, 14);
+}
+#bl_header .word em {
+    position: absolute;
+    top: 75px;
+    left: 15px;
+    width: 100%;
+    word-wrap:break-word;
+    display: none;
+    background-color: yellow;
+}
+/* 设置多彩字体 */
+#bl_header .logo {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "黑体";
+    color: #8c888b;
+    background: -webkit-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+    -moz-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+    -ms-linear-gradient(45deg, #70f7fe, #fbd7c6, #fdefac, #bfb5dd, #bed5f5);
+    color: transparent;
+    /*设置字体颜色透明*/
+    -webkit-background-clip: text;
+    /*背景裁剪为文本形式*/
+    animation: ran 10s linear infinite;
+    /*动态10s展示*/
+}
+/* *****************header的css**************** */
+
+
+/* *****************bl_carousel的css**************** */
+#bl_carousel img {
+    width: 100%;
+    height: 450px;
+}
+/* *****************bl_carousel的css**************** */
+
+
+/* *****************bl_about的css**************** */
+#bl_about .img_border {
+    float: left;
+    padding: 10px;
+}
+/* *****************bl_about的css**************** */
+
+
+
+/* *****************bl_footer的css**************** */
+#bl_footer {
+    width: 100%;
+    height: 100px;
+    background-color: hsla(0,0%,100%,0.8);
+}
+.center {
+    width: 210px; 
+    margin: 0 auto;
+}
+#bl_footer .size {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 3px rgba(0,0,0,.5);
+}
+
+/* *****************bl_footer的css**************** */
